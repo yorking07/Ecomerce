@@ -1,0 +1,20 @@
+.article__h2 {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.8rem;
+  margin: 0.4em 0 0 0;
+}
+
+@media (max-width:950px) {
+  .article__h2 {
+    font-size: 1.6rem;
+    width: 50%;
+
+  }
+}
+
+@media (max-width:500px) {
+  .article__h2 {
+    font-size: 1.2rem;
+    width: 140px
+  }
+}

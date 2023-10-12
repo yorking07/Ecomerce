@@ -1,0 +1,22 @@
+.main__header {
+  background-color: var(--background-header);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img {
+  margin-top: 0;
+  width: 15%;
+}
+
+@media (max-width:950px) {
+  .main__header {
+    height: 300px;
+  }
+
+  .header__img {
+    width: 200px;
+  }
+}

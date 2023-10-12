@@ -1,0 +1,29 @@
+.body__nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  width: 100%;
+  padding: 0.2em 0;
+  top: 0;
+  background-color: var(--background-card);
+  z-index: 3;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  width: 90%;
+}
+
+.nav__li {
+  font-size: 2rem;
+}
+
+.nav__img {
+  width: 7rem;
+  cursor: pointer;
+}
