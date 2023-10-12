@@ -85,7 +85,9 @@ function detail() {
           const ulButtonDiv = document.querySelector('.ul__button--div')
 
           ulButtonDiv.addEventListener(('click'), () => {
-            localStorageCart(size, divButtonSizes, productId, product.name , product.price, product.image)
+            localStorageCart(size, divButtonSizes, productId, product.name , product.price, product.image , product.size = null)
+            const cartDisplay = document.querySelector('#menu_cart')
+            cartDisplay.classList.add('main__section--cartActive')
           })
 
 

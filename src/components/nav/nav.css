@@ -8,7 +8,7 @@
   padding: 0.2em 0;
   top: 0;
   background-color: var(--background-card);
-  z-index: 3;
+  z-index: 2;
 }
 
 .nav__ul {
@@ -25,5 +25,9 @@
 
 .nav__img {
   width: 7rem;
+  cursor: pointer;
+}
+
+.nav__li > i {
   cursor: pointer;
 }

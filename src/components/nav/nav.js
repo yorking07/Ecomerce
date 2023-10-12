@@ -12,7 +12,7 @@ function nav() {
       </li>
 
       <li class="nav__li">
-        <i class='bx bx-cart'></i>
+        <i id='cart' class='bx bx-cart'></i>
       </li>
 
     </ul>

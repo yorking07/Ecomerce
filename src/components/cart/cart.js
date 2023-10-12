@@ -15,10 +15,11 @@ function cart() {
 
                 <h3 class="section__h3--cart">${product.name}</h3>
                 <h4 class="section__h4--cart">${product.price}.00</h4>
-                <p class="section__img--p">${product.size}</p>
+                <p class="section__p--cart">Talla: ${product.size}</p>
                 
-                <div class="section__div--buttonsCart>
-                    <div class="section__div--modified">
+                <div class="section__div--buttonsCart">
+
+                    <div class="section__div--modifed">
                         <button class="decrement">-</button>
                         <p class="quantity">${product.quantity}</p>
                         <button class="increment">+</button>
