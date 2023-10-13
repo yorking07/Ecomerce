@@ -1,4 +1,5 @@
 import localStorageCart from "./localStorageCart.js"
+import cart from "../cart/cart.js"
 
 function detail() {
 
@@ -86,6 +87,9 @@ function detail() {
 
           ulButtonDiv.addEventListener(('click'), () => {
             localStorageCart(size, divButtonSizes, productId, product.name , product.price, product.image , product.size = null)
+
+            cart()
+            
             const cartDisplay = document.querySelector('#menu_cart')
             cartDisplay.classList.add('main__section--cartActive')
           })

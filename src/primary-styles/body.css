@@ -1,5 +1,5 @@
 .body {
-  background-color: var(--background-first-section);
+  background: var(--background-first-section);
 }
 
 .body__main {

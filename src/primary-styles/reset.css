@@ -6,9 +6,10 @@
   --font-weight-medium: 400;
   --font-weight-bold: 500;
 
+  --background-primal: repeating-linear-gradient(-45deg,#EB4A5A,#EB4A5A 6px,#431c20 0,#e26370 12px);;
   --background-header: #EB4A5A;
   --background-first-section: #F9FAFC;
-  --background-card: #F6F3F3;
+  --background-card: repeating-linear-gradient(-45deg,#F9FAFC,#F9FAFC 6px,#fdf7ed 0,#fdf7ed 12px);
   --text-color-primary: #434343;
   --text-color-secondary: #274671;
 

@@ -1,5 +1,5 @@
 .main__header {
-  background-color: var(--background-header);
+  background: var(--background-primal);
   height: 40vh;
   display: flex;
   justify-content: center;
